@@ -1,3 +1,11 @@
+# Pulse Flappy Birds
+
+Sample flappy birds game
+
+Hardware:
+- Brainpad Pulse
+
+```basic
 u=4       # Player X position
 v=8       # Player Y position
 t=0       # Player tail Y offset
@@ -88,3 +96,4 @@ return
   LcdPixel(1, x*4+2, y*3+2)
   LcdPixel(1, x*4+3, y*3+2)
 return
+```
